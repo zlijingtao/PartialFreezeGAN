@@ -1,0 +1,13 @@
+Environment Setting
+
+To Set up the environment, use the command:
+
+install miniconda3 in a linux-x64 machine:
+
+make sure cuda is installed.
+
+conda env create -f environment.yml
+
+conda activate keras
+
+python FreezeGAN.py
