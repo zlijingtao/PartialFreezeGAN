@@ -19,6 +19,10 @@ After a certain fraction of time ($1 - \alpha$) training on the full-potential m
 
 ![Alt text](https://github.com/zlijingtao/PartialFreezeGAN/blob/master/Idea/process1.PNG?raw=true "Fig. 2. Training process of partial freeze GAN.")
 
-The comparison of our proposed technique with the baseline is:
+The comparison of our proposed technique with the baseline (4,000 training steps with learning rate 0.0002, freeze ratio is set to 0.7 in FreezeGAN) shows a much better convergence.
 
 ![Alt text](https://github.com/zlijingtao/PartialFreezeGAN/blob/master/Idea/comparison.PNG?raw=true "Fig. 3. Comparison with a 4,000 steps baseline DCGAN.")
+
+Without the partial-freeze technique, we need train excessive 8,000 steps to achieve same level of convergence.
+
+![Alt text](https://github.com/zlijingtao/PartialFreezeGAN/blob/master/Idea/8000.PNG?raw=true "Fig. 4. 8,000 steps of baseline DCGAN to get the same convergence.")
