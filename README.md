@@ -3,7 +3,7 @@ A partial-freeze technique towards fast GAN training
 
 ### MMD Metric
 
-A metric to evaluate GAN.
+A metric to evaluate GAN, implemented using Gaussian kernel.
 
 Reference
 
