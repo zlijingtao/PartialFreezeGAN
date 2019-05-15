@@ -1,5 +1,5 @@
 # PartialFreezeGAN
-A partial-freeze technique towards fast GAN training
+A partial-freeze technique towards fast DCGAN training (in Python, using keras framework). 
 
 ### MMD Metric
 
